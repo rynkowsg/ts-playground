@@ -1,0 +1,19 @@
+{
+  "name": "ts-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --colors --display-error-details --config webpack.config.js",
+    "node": "node ./dist/app.bundle.js",
+    "app": "npm run build && npm run node"
+  },
+  "author": "Greg Rynkowski <dev@rynkowski.info>",
+  "devDependencies": {
+    "ts-loader": "^3.5.0",
+    "typescript": "^2.7.2",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1",
+    "yarn": "^1.3.2"
+  }
+}
